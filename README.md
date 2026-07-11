@@ -1,6 +1,6 @@
-# -
+# SQL注入脚本
 渗透项目/渗透工具/脚本文件
-适用于：易云资管系统的imaRead.make.php接口存在SQL注入
+例如：***系统的imaRead.make.php接口存在SQL注入
 
 FOFA:
   body="不要着急，点此"
