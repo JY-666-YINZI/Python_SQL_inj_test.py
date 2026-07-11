@@ -102,7 +102,7 @@ def poc(url):
 # 2.已经写完poc函数，接下来写主函数↓
 # 写主函数，调用poc函数，传入url参数
 def main():
-    parser = argparse.ArgumentParser(description="百易云资管系统SQL注入脚本")
+    parser = argparse.ArgumentParser(description="**系统SQL注入脚本")
     parser.add_argument("-u", "--url", help="目标url")  # 添加url参数（参数名可自定义）,是以u的形式也就是url形式，必须输入，否则报错
     parser.add_argument("-f", "--file", help="目标url文件")   # 添加url文件参数（参数名可自定义）,是以f的形式也就是file形式，可选输入，否则不报错
     args = parser.parse_args()    # 解析参数：args是解析后的参数,调用parser包含的parse_args()解析参数，返回args对象
